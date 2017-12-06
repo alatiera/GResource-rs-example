@@ -1,6 +1,9 @@
 [package]
-name = "gresource-rs"
-version = "0.1.0"
 authors = ["Jordan Petridis <jordanpetridis@protonmail.com>"]
+name = "gresource-rs-example"
+version = "0.1.0"
 
-[dependencies]
+[dependencies.gtk]
+version = "0.3"
+# Should work with everythign above v3_10
+features = ["v3_22"]
