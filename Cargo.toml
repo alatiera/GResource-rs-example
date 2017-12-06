@@ -1,9 +1,13 @@
 [package]
 authors = ["Jordan Petridis <jordanpetridis@protonmail.com>"]
+build = "build.rs"
 name = "gresource-rs-example"
 version = "0.1.0"
 
+[dependencies]
+gio = "0.3.0"
+glib = "0.4.0"
+
 [dependencies.gtk]
-version = "0.3"
-# Should work with everythign above v3_10
 features = ["v3_22"]
+version = "0.3"
